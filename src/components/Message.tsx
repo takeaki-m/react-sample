@@ -1,4 +1,4 @@
-// 無名感すでコンポーネントを定義、Textという変数に代入する
+// 無名関数でコンポーネントを定義、Textという変数に代入する
 // Textコンポーネントは親から`content`というデータを受け取る
 
 const Text = (props: {content: string}) => {

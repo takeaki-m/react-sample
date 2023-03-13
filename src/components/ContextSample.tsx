@@ -23,6 +23,7 @@ const Header = () => {
     )
 }
 
+// Pageコンポーネントから孫コンポーネントのTitleコンポーネントへContextを使って文字列を渡している
 const Page = () => {
     const title = 'React Book'
 

@@ -15,7 +15,7 @@ const Counter = (props: CounterProps) => {
         <div>
             <p>Count: {count}</p>
             {/* setCountを呼びことで状態を更新 */}
-            <button onClick={() => setCount(count -1)}>-</button>
+            <button onClick={() => setCount(count -1)}>-</button><p></p>
             <button onClick={() => setCount((prevCount) => prevCount + 1)}></button>
         </div>
     )

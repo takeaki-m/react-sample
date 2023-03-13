@@ -23,4 +23,5 @@ function App() {
   );
 }
 
+// Appをデフォルトにエクスポート
 export default App;
